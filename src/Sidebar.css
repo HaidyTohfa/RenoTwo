@@ -1,0 +1,170 @@
+/* Sidebar.css */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #112239; /* Dark blue color */
+    color: rgba(255, 255, 255, 0.7); /* Faded white color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+/* Sidebar.css */
+/* ... (previous styles) */
+
+.search-bar {
+    position: relative;
+  }
+  
+  input {
+    width: 150%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #112239;
+    border-radius: 10px;
+  }
+  
+  /* Style for the search icon */
+  .search-icon {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #95a5a6;
+    cursor: pointer;
+  }
+  
+  /* ... (remaining styles) */
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for links */
+  a {
+    color: rgba(255, 255, 255, 0.7); /* Faded white color */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 0.3s ease; /* Add transition for smooth color change on hover */
+  }
+  
+  a:hover {
+    color: #fff; /* White color on hover */
+  }
+  
+  /* Style for sub-menu */
+  .submenu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px; 
+    
+  }
+  
+  .submenu-title:hover {
+    color: #fff; /* White color on hover */
+  }
+  
+  .submenu {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  /* Style for the input field */
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Style for the open submenu */
+  .submenu-title.open {
+    color: #fff; /* White color when submenu is open */
+  }
+  
+  /* Sidebar.css */
+/* ... (previous styles) */
+
+/* Sidebar.css */
+/* ... (previous styles) */
+
+/* Style for the active submenu title */
+/* Sidebar.css */
+/* ... (previous styles) */
+
+/* Style for the active menu item */
+.menu-item.active {
+    position: relative;
+    
+  }
+  
+  .menu-item.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22a565; /* Green color */
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1;
+    font-size: 20px; 
+  }
+  
+  /* Style for links when pressed */
+  .menu-item:active {
+    color: #22a565; /* Green color */
+  }
+  
+  /* Style for the active submenu title */
+  /* Sidebar.css */
+/* ... (previous styles) */
+
+/* Style for the active submenu title */
+.submenu-title.active {
+  position: relative;
+}
+
+.submenu-title.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Green color */
+  
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+
+/* Style for the active submenu and its items */
+.submenu.active {
+  background-color: #1e2642; /* Set a background color for the entire submenu when active */
+}
+
+/* Style for links in the active submenu */
+.submenu a:active {
+  
+  color: #22a565 ; /* White color for text in the clicked item */
+}
+
+/* ... (remaining styles) */
+
+
+  .submenu a {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  
+  /* ... (remaining styles) */
+  
